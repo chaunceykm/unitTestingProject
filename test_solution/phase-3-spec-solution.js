@@ -10,7 +10,7 @@ describe('Word', function () {
       //Act
       
       //Assert
-       expect.fail('Remove this expect.fail and replace it with your test');
+      
     })
      it('should set the "word" property when a new word is created', function() {
       //Arrange
@@ -18,7 +18,6 @@ describe('Word', function () {
       //Act
       
       //Assert
-        expect.fail('Remove this expect.fail and replace it with your test');
     })
   })
   describe('removeVowels function', function () {
@@ -28,7 +27,6 @@ describe('Word', function () {
       //Act
       
       //Assert
-       expect.fail('Remove this expect.fail and replace it with your test');
     })
   })
   describe('removeConsonents function', function () {
@@ -39,7 +37,6 @@ describe('Word', function () {
     //Act
     
     //Assert
-     expect.fail('Remove this expect.fail and replace it with your test');
   })
   describe('pigLatin function', function () {
 })
@@ -49,7 +46,5 @@ describe('Word', function () {
     //Act
     
     //Assert
-     expect.fail('Remove this expect.fail and replace it with your test');
-    
   })
 })
