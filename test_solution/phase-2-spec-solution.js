@@ -10,10 +10,11 @@ describe('mirrorArray()', function () {
   it('should return a single array where the first half is the orginal array and the second half is a mirror of the first half', function () {
     
     //Arrange
-    
+    let array = [1, 2, 3]
     //Act
-    
+    let result = mirrorArray(array)
     //Assert
+    expect(result).to.equal([1,2,3,3,2,1])
   })
 })
 
@@ -67,10 +68,10 @@ describe('avgValue', function () {
   it('should return the average of an array of numbers', function () {
 
     //Arrange
-    
+    let array = [2, 3, 5, 8, 10]
     //Act
-    
+    let result = avgValue(array)
     //Assert
-
+    expect(result).to.equal(5.6)
   })
 })
