@@ -8,8 +8,11 @@ const { mirrorArray, hiddenCounter, myMap, avgValue } = require('../problems/pha
 //1. mirrorArray
 describe('mirrorArray()', function () {
   it('should return a single array where the first half is the orginal array and the second half is a mirror of the first half', function () {
+    
     //Arrange
+    
     //Act
+    
     //Assert
   })
 })
@@ -18,12 +21,20 @@ describe('mirrorArray()', function () {
 describe('hiddenCounter()', function () {
   
   it('should return a function that will increment the counter when invoked', function () {
+   
+    //Arrange
+   
     let hidden1 = hiddenCounter();
     hidden1();
     let testResult1 = hidden1();
 
+    //Act
+
     let hidden2 = hiddenCounter();
     let testResult2 = hidden2();
+
+    //Assert
+
     expect(testResult1).to.equal(2)
     expect(testResult2).to.equal(1)
     
@@ -52,9 +63,12 @@ describe('myMap', function () {
 //4. avgValue
 describe('avgValue', function () {
   it('should return the average of an array of numbers', function () {
-    //
-    //
-    //
+    
+    //Arrange
+    
+    //Act
+    
+    //Assert
 
   })
 })
