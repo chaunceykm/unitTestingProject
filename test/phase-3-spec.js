@@ -5,24 +5,22 @@ const { Word } = require('../problems/phase-3')
 describe('Word', function () {
   describe('Word constructor function', function () {
     it('should have a "word" property', function() {
-      //Arrange
-      
-      //Act
+      //Arrange & Act
+
       
       //Assert
        expect.fail('Remove this expect.fail and replace it with your test');
     })
      it('should set the "word" property when a new word is created', function() {
-      //Arrange
-      
-      //Act
+      //Arrange & Act
+
       
       //Assert
         expect.fail('Remove this expect.fail and replace it with your test');
     })
   })
   describe('removeVowels function', function () {
-    it('should return a the word with all vowlels removed', function() {
+    it('should return a the word with all vowels removed', function() {
       //Arrange
       
       //Act
