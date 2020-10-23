@@ -15,7 +15,7 @@ class Word {
     }
   }
 
-  removeConsanents() {
+  removeConsonents() {
     let vowels = 'aeiouAEIOU'
     let newWord = ''
     for (let i = 0; i < this.word.length; i++){
