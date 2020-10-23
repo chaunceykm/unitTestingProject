@@ -31,7 +31,7 @@ function hiddenCounter() {
   return () => (count += 1);
 }
 /*
-3. arrowMyMap 
+3. myMap 
 Write a function  named `myMap` that accepts an array
 and a callback as arguments. The function will return an array of new elements
 obtained by calling the callback on each element of the array, passing in the 
