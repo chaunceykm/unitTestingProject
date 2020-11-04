@@ -23,29 +23,37 @@ describe('Word', function () {
   })
   describe('removeVowels function', function () {
     it('should return a the word with all vowels removed', function() {
-      //Arrange
-      
+      //Arrange 
+
+      const newWord = new Word('dog')
       //Act
+      const result = newWord.removeVowels();
       
       //Assert
+      expect(result).to.equal('dg')
     })
   })
   describe('removeConsonents function', function () {
 })
   it('should return the word with the consonents removed', function() {
     //Arrange
-    
+    const newWord = new Word('racecar')
     //Act
-    
+    const result = newWord.removeConsonents();
     //Assert
+    expect(result).to.equal('aea')
   })
   describe('pigLatin function', function () {
 })
   it('should return the word converted to pig latin', function() {
     //Arrange
-    
+    const newWord1 = new Word('banana')
+    const newWord2 = new Word('able')
     //Act
-    
+    const result1 = newWord1.pigLatin()
+    const result2 = newWord2.pigLatin()
     //Assert
+    expect(result1).to.equal('ananabay')
+    expect(result2).to.equal('ableyay')
   })
 })
