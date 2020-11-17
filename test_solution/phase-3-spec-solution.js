@@ -33,13 +33,13 @@ describe('Word', function () {
       expect(result).to.equal('dg')
     })
   })
-  describe('removeConsonents function', function () {
+  describe('removeConsonants function', function () {
 })
-  it('should return the word with the consonents removed', function() {
+  it('should return the word with the consonants removed', function() {
     //Arrange
     const newWord = new Word('racecar')
     //Act
-    const result = newWord.removeConsonents();
+    const result = newWord.removeConsonants();
     //Assert
     expect(result).to.equal('aea')
   })

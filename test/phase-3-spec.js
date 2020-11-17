@@ -29,9 +29,9 @@ describe('Word', function () {
        expect.fail('Remove this expect.fail and replace it with your test');
     })
   })
-  describe('removeConsonents function', function () {
+  describe('removeConsonants function', function () {
 })
-  it('should return the word with the consonents removed', function() {
+  it('should return the word with the consonants removed', function() {
     //Arrange
     
     //Act

@@ -11,11 +11,11 @@ class Word {
       if (!vowels.includes(char)) {
         newWord += char
       }
-      return newWord;
     }
+    return newWord;
   }
 
-  removeConsonents() {
+  removeConsonants() {
     let vowels = 'aeiouAEIOU'
     let newWord = ''
     for (let i = 0; i < this.word.length; i++){
@@ -23,8 +23,8 @@ class Word {
       if (vowels.includes(char)) {
         newWord += char
       }
-      return newWord;
     }
+    return newWord;
   }
   pigLatin() { 
 let vowels = "aeiouAEIOU";
